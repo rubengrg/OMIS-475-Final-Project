@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sigma Alpha Mu </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="main.css" rel="stylesheet">
+<link href="slides.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+  <header role="banner">
+    <span><a href="#content">Skip to Content</a></span>
+    <h1></h1>
+  </header>
+  <nav role="navigation">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="history.html">History</a></li>
+    <li><a href="faqs.html">FAQS</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>
+  </nav>
+ <aside role="complementary">
+   <h3>Interested in rushing Sammys?</h3>
+   <p class="news">Contact our Recruitment Chairmen!</p>
+   <h3><br>Ethan Nieves: <br>(224)-318-8990
+   <br>Noah Guardado:<br>(773)-791-4060
+   <br>Dylan Brown: <br>(815)-343-0822</h3>
+   <br>
+   <a class="twitter-timeline" data-height="500" href="https://twitter.com/NIU_Sammys?ref_src=twsrc%5Etfw">Tweets by NIU_Sammys</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   
+    </aside>
+  <main role="main" id="content">
+    <h2>Creed</h2>
+    <p>"To foster and maintain among its sons a spirit of fraternity, a spirit of mutual moral aid and support; to instill and maintain in the hearts of its sons love for and loyalty to Alma Mater and its ideals; to inculcate among its sons such ideals as will result in actions worthy of the highest precepts of true manhood, democracy, and humanity."</p>
+    <h2>Mission</h2> 
+    <p>Sigma Alpha Mu's Mission is to foster the development of collegiate men and our alumni by instilling strong fraternal values, offering social and service opportunities, encouraging academic excellence and teaching leadership skills.  We will continue to attract members of all beliefs who appreciate our great heritage as a fraternity of Jewish men.</p>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="pic1.jpg" style="width:60%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="pic2.jpg" style="width:60%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="pic3.jpg" style="width:60%">
+        <div class="text"></div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); 
+      }
+      </script>
+        <center><h2><p><a href="contact.html">Click Here To Contact Us!</a></center></p></h2>
+
+      
+    <footer role="contentinfo"> <marquee behavior="scroll" direction="left" scrollamount="6"><b>Sigma Alpha Mu (Gamma Lambda)</b></marquee>
+    </footer>
+  </main>
+</div> 
+</body>
+</html>
